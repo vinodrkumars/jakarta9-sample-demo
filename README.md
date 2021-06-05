@@ -1,6 +1,6 @@
 # jakarta9-sample-demo
 
-Vinods-MacBook-Pro-2:Jakarta9-sample-demo vinodkumar$ mvn -X clean package cargo:run
+$ mvn -X clean package cargo:run
 Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 Maven home: /Users/Shared/tools/apache-maven-3.6.3
 Java version: 11.0.6, vendor: AdoptOpenJDK, runtime: /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
