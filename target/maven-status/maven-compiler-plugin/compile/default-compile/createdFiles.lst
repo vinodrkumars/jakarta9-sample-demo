@@ -1,0 +1,4 @@
+com/demo/GreetingResource.class
+com/demo/GreetingMessage.class
+com/demo/JaxrsActivator.class
+com/demo/GreetingService.class
