@@ -1,5 +1,24 @@
 # jakarta9-sample-demo
 
+## Creating project from mvn command - 
+
+```
+Creating JakartaEE 9 project 
+
+mvn -B  archetype:generate \
+-DarchetypeGroupId=io.github.hantsy \
+-DarchetypeArtifactId=maven-archetype-jakartaee9  \
+-DarchetypeVersion=1.0  \
+-DgroupId=com.demo \
+-Dpackage=com.demo \
+-DartifactId=Jakarta9-sample-demo \
+-Dversion=1.0-SNAPSHOT
+```
+
+## Running project - 
+
+```
+
 $ mvn -X clean package cargo:run
 Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 Maven home: /Users/Shared/tools/apache-maven-3.6.3
@@ -18,6 +37,7 @@ OS name: "mac os x", version: "10.16", arch: "x86_64", family: "mac"
 ^C[INFO] [talledLocalContainer] GlassFish 6.1.0 is stopping...
 
 <BR>
+```
 
 Testing URL 
 http://localhost:8080/Jakarta9-sample-demo/api/greeting/<greetingMessage>
