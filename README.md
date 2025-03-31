@@ -2,9 +2,10 @@
 
 ## Creating project from mvn command - 
 
-```
+
 Creating JakartaEE 9 project 
 
+```
 mvn -B  archetype:generate \
 -DarchetypeGroupId=io.github.hantsy \
 -DarchetypeArtifactId=maven-archetype-jakartaee9  \
@@ -27,16 +28,15 @@ Default locale: en_US, platform encoding: UTF-8
 OS name: "mac os x", version: "10.16", arch: "x86_64", family: "mac"
 .......
 .......
-<BR>
-<BR>
+
 [DEBUG] [URLDeployableMonitor] Notifying monitor listener [org.codehaus.cargo.container.spi.deployer.DeployerWatchdog@65ad2b42]
 [INFO] [talledLocalContainer] GlassFish 6.1.0 started on port [8080]
-<BR>
+
 [INFO] Press Ctrl-C to stop the container...
-<BR>
+
 ^C[INFO] [talledLocalContainer] GlassFish 6.1.0 is stopping...
 
-<BR>
+
 ```
 
 Testing URL 
